@@ -1,0 +1,52 @@
+.login {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1000px 1000px 0 0;
+    background-image: linear-gradient(to left, #1be5cc, #00c4e5, #009dff, #006eff, #2f1ed3);
+    height: 550px;
+    width: 1400px;
+}
+.form-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .form-group, p {
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .password-forgot{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    position: relative;
+  }
+  h4{
+    text-align: center;
+  }
+
+  .semi-circle {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 600px;
+    width: 80%;
+    border-radius: 700px 700px 0 0;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(30,122,231,1) 100%);
+  }
+
+  @media only screen and (max-width: 700px) {
+    .semi-circle{
+      display: none;
+    }
+  }
